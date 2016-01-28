@@ -1,0 +1,45 @@
+{
+  "ProjectName": "riv",
+  "ProjectGuid": "891ec08d-8cf7-4118-9660-7b688d07276c",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.riv",
+  "DisplayName": "riv",
+  "Author": "",
+  "Description": "riv",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.7.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "false",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{818fb5bd-01e1-484a-9eaa-5eff508cffc2}",
+  "WP8ProductID": "{b883fd9f-24d3-4f22-8ed8-7594aa8c8bf7}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.riv",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}
