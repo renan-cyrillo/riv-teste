@@ -5,35 +5,35 @@
                 <li>
                     <label>Categoria
                         <select data-bind="value: novaVistoriaModel.fields.categoria" data-role="dropdownlist">
-                            <option value="First Option">First Option</option>
-                            <option value="Second Option">Second Option</option>
-                            <option value="Third Option">Third Option</option>
+                            <option value="basico">Básico</option>
+                            <option value="basicoSemFotos">Básico sem Fotos</option>
+                            <option value="RIC–Balsa">RIC – Balsa</option>
                         </select>
                     </label>
                 </li>
                 <li>
                     <label>Local
                         <select data-bind="value: novaVistoriaModel.fields.local" data-role="dropdownlist">
-                            <option value="First Option">First Option</option>
-                            <option value="Second Option">Second Option</option>
-                            <option value="Third Option">Third Option</option>
+                            <option value="Filial1">Filial 1</option>
+                            <option value="Filial2">Filial 2</option>
+                            <option value="Filial3">Filial 3</option>
                         </select>
                     </label>
                 </li>
                 <li>
                     <label>Evento
                         <select data-bind="value: novaVistoriaModel.fields.evento" data-role="dropdownlist">
-                            <option value="First Option">First Option</option>
-                            <option value="Second Option">Second Option</option>
-                            <option value="Third Option">Third Option</option>
+                            <option value="entrada">Entrada</option>
+                            <option value="saida">Saída</option>
+                            <option value="dupla">Dupla</option>
                         </select>
                     </label>
                 </li>
             </ul>
 
             <div class="button-group">
-                <a data-role="button" data-bind="events: { click: novaVistoriaModel.cancel }">Tela Inicial</a>
-                <a class="primary" data-role="button" data-bind="events: { click: novaVistoriaModel.submit }">Continuar</a>
+                <a class=" btn-press-laranja" data-role="button" data-bind="events: { click: novaVistoriaModel.cancel }">Tela Inicial</a>
+                <a class=" btn-press-laranja" data-role="button" data-bind="events: { click: novaVistoriaModel.submit }">Continuar</a>
             </div>
         </form>
         <!-- START_CUSTOM_CODE_novaVistoriaModel -->
