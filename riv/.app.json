@@ -5,9 +5,88 @@
       "type": "kendo-ui-mobile:view",
       "name": "home",
       "components": [],
-      "title": "Home View",
+      "title": "Home",
       "addToNavigation": true,
       "icon": "home"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "novaVistoria",
+      "components": [
+        {
+          "type": "kendo-ui-mobile:form",
+          "components": [
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "categoria",
+              "title": "Categoria",
+              "inputType": "dropdownlist"
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "local",
+              "title": "Local",
+              "inputType": "dropdownlist"
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "evento",
+              "title": "Evento",
+              "inputType": "dropdownlist"
+            }
+          ],
+          "name": "novaVistoriaModel",
+          "submitButton": "Continuar",
+          "cancelButton": "Tela Inicial"
+        }
+      ],
+      "title": "Nova Vistoria",
+      "addToNavigation": true,
+      "icon": "mostrecent"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "login",
+      "components": [
+        {
+          "type": "kendo-ui-mobile:form",
+          "components": [
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "usuario",
+              "title": "Usuario",
+              "inputType": "text"
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "senha",
+              "title": "Senha",
+              "inputType": "password"
+            }
+          ],
+          "name": "loginModel",
+          "submitButton": "Entar",
+          "cancelButton": "Cancelar"
+        }
+      ],
+      "title": "Login",
+      "addToNavigation": false
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "vistoriasRealizadas",
+      "components": [],
+      "title": "Vistorias Realizadas",
+      "addToNavigation": true,
+      "icon": "bookmarks"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "atualizarSistema",
+      "components": [],
+      "title": "Atualizar Sistema",
+      "addToNavigation": true,
+      "icon": "more"
     }
   ],
   "dataProviders": [],

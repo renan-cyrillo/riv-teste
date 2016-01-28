@@ -6,7 +6,6 @@
     <meta charset="utf-8">
     <link href="kendo/styles/kendo.mobile.all.min.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
-    <link href="styles/custom.css" rel="stylesheet">
 
     <script src="cordova.js"></script>
     <script src="kendo/js/jquery.min.js"></script>
@@ -24,19 +23,11 @@
         <header data-role="header">
             <div data-role="navbar">
                 <span data-role="view-title"></span>
+                <a data-role="button" href="#appDrawer" data-rel="drawer" data-align="left" data-icon="drawer-button"></a>
             </div>
         </header>
 
         <!-- application views will be rendered here -->
-
-        <footer data-role="footer">
-            <div data-role="tabstrip" id="navigation-container">
-                <a href="components/home/view.html" data-icon="home">Home</a>
-                <a href="components/novaVistoria/view.html" data-icon="mostrecent">Nova Vistoria</a>
-                <a href="components/vistoriasRealizadas/view.html" data-icon="bookmarks">Vistorias Realizadas</a>
-                <a href="components/atualizarSistema/view.html" data-icon="more">Atualizar Sistema</a>
-            </div>
-        </footer>
     </div>
 
     <div data-role="layout" data-id="main-nonav">
@@ -47,9 +38,20 @@
         </header>
 
         <!-- application views will be rendered here -->
+    </div>
 
-        <footer data-role="footer">
-        </footer>
+    <div id="appDrawer" data-role="drawer" data-title="Navigation">
+        <header data-role="header">
+            <div data-role="navbar">
+                <span data-role="view-title"></span>
+            </div>
+        </header>
+        <ul id="navigation-container" data-role="listview">
+            <li><a href="components/home/view.html" data-icon="home">Home</a></li>
+            <li><a href="components/novaVistoria/view.html" data-icon="mostrecent">Nova Vistoria</a></li>
+            <li><a href="components/vistoriasRealizadas/view.html" data-icon="bookmarks">Vistorias Realizadas</a></li>
+            <li><a href="components/atualizarSistema/view.html" data-icon="more">Atualizar Sistema</a></li>
+        </ul>
     </div>
     <!-- START_CUSTOM_CODE_kendoUiMobileApp -->
     <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->

@@ -1,0 +1,36 @@
+<div data-role="view" data-title="Login" data-layout="main-nonav" data-model="app.login" data-show="app.login.onShow" data-after-show="app.login.afterShow">
+    <div id="loginModel" class="form-view">
+        <form>
+            <ul class="form-content" data-role="listview" data-style="inset">
+                <li>
+
+                    <label>Usuario
+                        <input data-bind="value: loginModel.fields.usuario" type="text">
+                    </label>
+
+                </li>
+                <li>
+
+                    <label>Senha
+                        <input data-bind="value: loginModel.fields.senha" type="password">
+                    </label>
+
+                </li>
+            </ul>
+
+            <div class="button-group">
+                <a data-role="button" data-bind="events: { click: loginModel.cancel }">Cancelar</a>
+                <a class="primary" data-role="button" data-bind="events: { click: loginModel.submit }">Entar</a>
+            </div>
+        </form>
+        <!-- START_CUSTOM_CODE_loginModel -->
+        <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+
+        <!-- END_CUSTOM_CODE_loginModel -->
+    </div>
+
+    <!-- START_CUSTOM_CODE_login -->
+    <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+
+    <!-- END_CUSTOM_CODE_login -->
+</div>
