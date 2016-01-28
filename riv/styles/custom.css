@@ -12,3 +12,19 @@ width:380px;
 height:242px;
 }
 
+/* Button Laranja */
+.btn-press-laranja {
+    border-radius: 5px;
+	
+}
+
+.btn-press-laranja:hover {
+	background: #ff8c00;
+	color: #fff;
+}
+
+.btn-press-laranja:active {
+	background: #ff6600;
+	
+}
+
