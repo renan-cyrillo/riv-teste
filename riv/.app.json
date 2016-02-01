@@ -86,13 +86,71 @@
       "components": [],
       "title": "Atualizar Sistema",
       "addToNavigation": true,
-      "icon": "more"
+      "icon": "refresh"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "vistoria",
+      "components": [
+        {
+          "type": "kendo-ui-mobile:form",
+          "components": [
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "semCondicoes",
+              "title": "Sem Condições de Inspeção",
+              "inputType": "checkbox"
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "poucaIluminacao",
+              "title": "Pouca Iluminação",
+              "inputType": "checkbox"
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "molhado",
+              "title": "Molhado",
+              "inputType": "checkbox"
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "chuva",
+              "title": "Chuva",
+              "inputType": "checkbox"
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "chassi",
+              "title": "Nr. Chassi",
+              "inputType": "text"
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "veiculoEspecial",
+              "title": "Veiculo Especial",
+              "inputType": "checkbox"
+            },
+            {
+              "type": "kendo-ui-mobile:field",
+              "name": "categoriaE",
+              "title": "Categoria",
+              "inputType": "dropdownlist"
+            }
+          ],
+          "name": "vistoriaModel",
+          "submitButton": "Continuar",
+          "cancelButton": "Tela Inicial"
+        }
+      ],
+      "title": "Vistoria",
+      "addToNavigation": false
     }
   ],
   "dataProviders": [],
   "name": "kendoUiMobileApp",
   "navigation": "tabstrip",
-  "view": "home",
+  "view": "login",
   "transition": "slide",
   "skin": "flat"
 }

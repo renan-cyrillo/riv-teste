@@ -1,0 +1,89 @@
+<div data-role="view" data-title="Vistoria" data-layout="main-nonav" data-model="app.vistoria" data-show="app.vistoria.onShow" data-after-show="app.vistoria.afterShow">
+    <div id="vistoriaModel" class="form-view">
+        <form>
+            <ul class="form-content" data-role="listview" data-style="inset">
+                <h3>
+                    Condições de Inspeção
+                </h3>
+                <li>
+
+                    <label>Sem Condições de Inspeção
+                        <input data-bind="value: vistoriaModel.fields.semCondicoes" type="checkbox">
+                    </label>
+
+                </li>
+                <li>
+
+                    <label>Pouca Iluminação
+                        <input data-bind="value: vistoriaModel.fields.poucaIluminacao" type="checkbox">
+                    </label>
+
+                </li>
+                <li>
+
+                    <label>Molhado
+                        <input data-bind="value: vistoriaModel.fields.molhado" type="checkbox">
+                    </label>
+
+                </li>
+                <li>
+
+                    <label>Chuva
+                        <input data-bind="value: vistoriaModel.fields.chuva" type="checkbox">
+                    </label>
+
+                </li>
+                
+                <h3>
+                    Dados do Veiculo
+                </h3>
+                
+                <li>
+
+                    <label>Nr. Chassi
+                        <input data-bind="value: vistoriaModel.fields.chassi" type="text">
+                        <a class="btn-press-laranja" data-role="button">Ler Código de Barras</a>
+                    </label>
+
+                </li>
+                <li>
+
+                    <label>Placa
+                        <input data-bind="value: vistoriaModel.fields.placa" type="text">
+                    </label>
+
+                </li>
+                <li>
+
+                    <label>Veiculo Especial
+                        <input data-bind="value: vistoriaModel.fields.veiculoEspecial" type="checkbox">
+                    </label>
+
+                </li>
+                <li>
+                    <label>Categoria
+                        <select data-bind="value: vistoriaModel.fields.categoriaE" data-role="dropdownlist">
+                            <option value="policial">Policial</option>
+                            <option value="bombeiro">Bombeiro</option>
+                        </select>
+                    </label>
+                </li>
+            </ul>
+
+            <div class="button-group">
+                <a href="components/home/view.html" class="btn-press-laranja" data-role="button" data-bind="events: { click: vistoriaModel.cancel }">Tela Inicial</a>
+                <a class="btn-press-laranja" data-role="button" data-bind="events: { click: vistoriaModel.submit }">Continuar</a>
+                <a class="btn-press-laranja" data-role="button" data-bind="events: { click: vistoriaModel.limpa }">Limpar</a>
+            </div>
+        </form>
+        <!-- START_CUSTOM_CODE_vistoriaModel -->
+        <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+
+        <!-- END_CUSTOM_CODE_vistoriaModel -->
+    </div>
+
+    <!-- START_CUSTOM_CODE_vistoria -->
+    <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+
+    <!-- END_CUSTOM_CODE_vistoria -->
+</div>

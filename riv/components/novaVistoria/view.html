@@ -5,9 +5,9 @@
                 <li>
                     <label>Categoria
                         <select data-bind="value: novaVistoriaModel.fields.categoria" data-role="dropdownlist">
+                            <option value="RIC Balsa">RIC – Balsa</option>
+                            <option value="basico sem Fotos">Básico sem Fotos</option>
                             <option value="basico">Básico</option>
-                            <option value="basicoSemFotos">Básico sem Fotos</option>
-                            <option value="RIC–Balsa">RIC – Balsa</option>
                         </select>
                     </label>
                 </li>
@@ -24,7 +24,7 @@
                     <label>Evento
                         <select data-bind="value: novaVistoriaModel.fields.evento" data-role="dropdownlist">
                             <option value="entrada">Entrada</option>
-                            <option value="saida">Saída</option>
+                            <option value="saida">Saida</option>
                             <option value="dupla">Dupla</option>
                         </select>
                     </label>
@@ -32,8 +32,8 @@
             </ul>
 
             <div class="button-group">
-                <a class=" btn-press-laranja" data-role="button" data-bind="events: { click: novaVistoriaModel.cancel }">Tela Inicial</a>
-                <a class=" btn-press-laranja" data-role="button" data-bind="events: { click: novaVistoriaModel.submit }">Continuar</a>
+                <a href="components/home/view.html" class="btn-press-laranja" data-role="button" data-bind="events: { click: novaVistoriaModel.cancel }">Tela Inicial</a>
+                <a href="components/vistoria/view.html" class="btn-press-laranja" data-role="button" data-bind="events: { click: novaVistoriaModel.submit }">Continuar</a>
             </div>
         </form>
         <!-- START_CUSTOM_CODE_novaVistoriaModel -->

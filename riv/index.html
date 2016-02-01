@@ -6,8 +6,7 @@
     <meta charset="utf-8">
     <link href="kendo/styles/kendo.mobile.all.min.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
-    <link href="styles/custom.css" rel="stylesheet">
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+     <link href="styles/custom.css" rel="stylesheet">
 
     <script src="cordova.js"></script>
     <script src="kendo/js/jquery.min.js"></script>
@@ -16,6 +15,7 @@
 </head>
 
 <body id="kendoUiMobileApp">
+    <script src="components/vistoria/index.js"></script>
     <script src="components/atualizarSistema/index.js"></script>
     <script src="components/vistoriasRealizadas/index.js"></script>
     <script src="components/login/index.js"></script>
@@ -32,10 +32,9 @@
 
         <footer data-role="footer">
             <div data-role="tabstrip" id="navigation-container">
-                <a href="components/home/view.html" data-icon="home">Home</a>
                 <a href="components/novaVistoria/view.html" data-icon="mostrecent">Nova Vistoria</a>
                 <a href="components/vistoriasRealizadas/view.html" data-icon="bookmarks">Vistorias Realizadas</a>
-                <a href="components/atualizarSistema/view.html" data-icon="more">Atualizar Sistema</a>
+                <a href="components/atualizarSistema/view.html" data-icon="refresh">Atualizar Sistema</a>
             </div>
         </footer>
     </div>

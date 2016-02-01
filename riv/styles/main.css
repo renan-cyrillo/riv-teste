@@ -47,6 +47,12 @@
     background-color: #33b5e5;
 }
 
+#kendoUiMobileApp.km-nova .button-group .km-button.primary {
+    color: #fff;
+    background-color: #ff4350;
+    border-color: #ff4350;
+}
+
 #kendoUiMobileApp .group-separator {
     border: none;
     background: transparent;
