@@ -15,12 +15,12 @@ height:242px;
 /* Button Laranja */
 .btn-press-laranja {
     border-radius: 5px;
-    background: #ff8c00;
+    
 	
 }
 
 .btn-press-laranja:hover {
-	background: #ff6600;
+	background: #ff8c00;
 	color: #fff;
 }
 
